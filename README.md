@@ -2,16 +2,17 @@
 
 This repository contains my practical practice programs for **Object-Oriented Programming (OOP) in Python**.
 
-I am building my OOP skills by solving problems step by step, starting with basic classes and objects and gradually moving toward advanced OOP concepts and real-world applications.
+I am learning OOP by solving practical problems step by step, starting from basic classes and objects and progressing toward advanced OOP concepts, object relationships, and real-world system design.
 
 ## 🎯 Learning Goals
 
-* Understand OOP concepts practically
+* Understand Python OOP concepts practically
 * Improve Python programming fundamentals
 * Learn how to design classes and objects
+* Understand when to use inheritance and composition
 * Practice writing reusable and maintainable code
+* Strengthen problem-solving skills
 * Prepare for Python technical interviews
-* Learn to solve real-world problems using OOP
 
 ## 📚 Concepts Covered
 
@@ -21,7 +22,6 @@ I am building my OOP skills by solving problems step by step, starting with basi
 * Instance Methods
 * `self`
 * Object State
-* Method Design
 * Data Validation
 * Encapsulation
 * `@property`
@@ -31,37 +31,47 @@ I am building my OOP skills by solving problems step by step, starting with basi
 * `super()`
 * Method Overriding
 * Polymorphism
+* Duck Typing
 * Abstraction
+* Abstract Classes
 * Composition
-* Real-world OOP Design
+* Object Relationships
+* One-to-Many Relationships
+* Inheritance vs Composition
 
 ## 📝 Practice Programs
 
-| No. | Program                    | Concepts                                        |
+| No. | Program                    | Main Concepts                                   |
 | --- | -------------------------- | ----------------------------------------------- |
 | 01  | Student Management         | Classes, Objects, Constructor, Instance Methods |
 | 02  | Bank Account               | Object State, Methods, Validation               |
-| 03  | Employee Management        | Object State, Methods                           |
+| 03  | Employee Management        | Object State, Instance Methods                  |
 | 04  | Rectangle                  | Attributes, Methods, Calculations               |
-| 05  | Product Management         | Constructor, Validation, Methods                |
+| 05  | Product Management         | Constructor, Methods, Validation                |
 | 06  | Employee Salary            | Encapsulation, `@property`                      |
-| 07  | Bank Account Encapsulation | Encapsulation, `@property`                      |
+| 07  | Bank Account Encapsulation | Encapsulation, Internal State, `@property`      |
 | 08  | Employee from String       | `@classmethod`, Alternative Constructor         |
 | 09  | Employee Salary Validation | `@staticmethod`                                 |
 | 10  | Employee & Developer       | Inheritance, `super()`, Method Overriding       |
-| 11+ | Coming Soon                | Polymorphism, Abstraction, Advanced OOP         |
+| 11  | Animal Sounds              | Polymorphism, Method Overriding                 |
+| 12  | Payment System             | Inheritance, Polymorphism, Object Attributes    |
+| 13  | File Opening System        | Duck Typing                                     |
+| 14  | Vehicle System             | Abstraction, Abstract Classes                   |
+| 15  | Shape System               | Abstraction, Inheritance, Polymorphism          |
+| 16  | Car & Engine               | Composition                                     |
+| 17  | Student & Address          | Composition, Object Relationships               |
+| 18  | Employee & Department      | Inheritance + Composition                       |
+| 19  | Shopping Cart              | Composition, Object Collections                 |
+| 20+ | Coming Soon                | Advanced OOP & Real-world Design                |
 
-## 🚀 Progress
-
-I am following a problem-by-problem approach.
-
-**Current Progress:**
+## 🚀 Current Progress
 
 ```text
 ✅ Classes & Objects
 ✅ Constructors
 ✅ Instance Methods
 ✅ Object State
+✅ Data Validation
 ✅ Encapsulation
 ✅ @property
 ✅ @classmethod
@@ -69,11 +79,24 @@ I am following a problem-by-problem approach.
 ✅ Inheritance
 ✅ super()
 ✅ Method Overriding
-⏳ Polymorphism
-⏳ Abstraction
-⏳ Composition
-⏳ Advanced OOP Design
-⏳ Real-world OOP Projects
+✅ Polymorphism
+✅ Duck Typing
+✅ Abstraction
+✅ Abstract Classes
+✅ Composition
+✅ Object Relationships
+✅ One-to-Many Relationships
+✅ Inheritance vs Composition
+
+⏳ Advanced Polymorphism
+⏳ Advanced Abstraction
+⏳ Multiple Inheritance
+⏳ Method Resolution Order (MRO)
+⏳ Operator Overloading
+⏳ Magic / Dunder Methods
+⏳ Composition vs Aggregation
+⏳ Real-world OOP Design
+⏳ OOP Mini Projects
 ```
 
 ## 💻 How to Run
@@ -84,34 +107,41 @@ Clone the repository:
 git clone https://github.com/Prasanna186/python-oops-practice.git
 ```
 
-Navigate to the project:
+Navigate to the repository:
 
 ```bash
 cd python-oops-practice
 ```
 
-Run any Python file:
+Run any Python program:
 
 ```bash
 python filename.py
 ```
 
-## 📈 Learning Approach
+## 🧠 Learning Approach
 
-Each program is designed to focus on a specific OOP concept. As the difficulty increases, the problems become more similar to real-world programming and interview questions.
+The programs in this repository are being developed **one problem at a time**.
 
-The goal is not only to memorize OOP definitions, but to understand:
+The focus is not only on remembering OOP definitions, but on learning how to make practical design decisions:
 
-> **When should I use a class?**
-> **What should be an attribute?**
-> **What should be a method?**
-> **When should I use inheritance?**
-> **When should I use composition?**
-> **How can I design reusable and maintainable code?**
+> What should be a class?
+> What should be an attribute?
+> What should be a method?
+> When should I use inheritance?
+> When should I use composition?
+> How can different objects work together?
+> How can I design reusable and maintainable code?
+
+## 📈 Progress
+
+**19 practical OOP problems completed.**
+
+The difficulty will continue increasing from basic OOP syntax toward interview-level problems and complete real-world object-oriented systems.
 
 ## 🔮 Future Plans
 
-I will continue adding programs covering advanced Python OOP concepts and eventually build complete mini-projects using OOP principles.
+The next stage of this repository will focus on advanced Python OOP concepts, more complex object relationships, design challenges, and mini-projects that simulate real software systems.
 
 ---
 
@@ -119,4 +149,5 @@ I will continue adding programs covering advanced Python OOP concepts and eventu
 
 **Prasanna**
 
-Learning Python OOP through practical problem solving and real-world applications.
+Learning Python OOP through practical problem solving and real-world application design.
+
