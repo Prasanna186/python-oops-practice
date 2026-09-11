@@ -1,3 +1,4 @@
+# Python program to demonstrate the concept of Inheritance
 class Employee:
     def __init__(self,name,salary):
         self.name = name
